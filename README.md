@@ -33,9 +33,9 @@ python decrypt.py password output input_recuperat.txt
 ***
 # Part 2
 ## Match
-* Our Team: Asyncoders
-* Enemy Team: Riga Crypto
-* Enemy Team Password: ..............
+* Our Team: ```Asyncoders```
+* Enemy Team: ```Riga Crypto```
+* Enemy Team Password: ```nailedit```
 
 ## About the Project
 Implemented two python scripts:
@@ -61,7 +61,7 @@ After that, for a fixed length of the unknown password, we implemented the follo
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_//For more explanation, you can see the code comments_
 
-#### [Improved Algorithm]:  
+### [Improved Algorithm]:  
 
 If the length of the password is not between 10-15 characters and is comparable with the length of the output text, then there is the possibility that our previous algorithm might return more passwords. Thus, we create a dictionary that will contain the most frequent words of the romanian language in order to get the corrrect password (which by xor-ing with the output text returns a text written in romanian language without diacritics.
 
