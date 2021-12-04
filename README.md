@@ -1,5 +1,5 @@
 # XOR Encryption / Decryption 
-<p align="right">(<a href="#part-2">Jump to Part 2</a>)</p>  
+<p align="right">(<a href="#🚀-part-2">Jump to Part 2</a>)</p>  
 
 # 🚀 Part 1
 ## About the Project
