@@ -36,7 +36,7 @@ python decrypt.py password output input_recuperat.txt
 ## Match
 * Our Team: ```Asyncoders```
 * Enemy Team: ```Riga Crypto```
-* Enemy Team Password: ```nailedit```
+* Enemy Team Password: ```(mai asteptam)```
 
 ## About the Project
 Implemented two python scripts:
