@@ -51,19 +51,19 @@ Deriving from the fact that the password has at least 10 and at most 15 characte
 
 ## Password Cracking 2
 
-Caracter valid!!!!!!!
+The main idea consists of using xor operation between every character from the 'output' file and all the possible characters that can appear in the 'input.txt' (i.e. digits, punctuation marks, space character, newline character, letters of the english alphabet both lowercase and uppercase, since the 'input.txt' file is written in romanian language without diacritics). 
 
-Ideea pe care o utilizam este xorarea dintre output si alfabetul englez.
-In cazul in care rezultatul xorarii este un caracter valid, atunci il adaugam in lista caracterelor posibile pentru parola la o anumita pozitie din text.  
+If the result of this operation is a valid character (i.e. an ascii character), then it is added to a list which contains all the possible characters at a certain position in the password string. After that, the list is appended to a bigger list of lists, which has a number of lists equal to the number of characters from the 'output' file.
 
-Pentru o anumita lungime a parolei fixata dupa urmatorul algoritm:
-           Cautam caracterul de pe o anumita pozitie din parola. Facem frecventa fiecarui caracter in fiecare lista de la pozitia x + k * lg, unde 0 <= k <= cnt_ap. 
-Daca exista un caracter cu numarul de aparitii egal cu cnt_ap, atunci acesta e caracterul cautat si il adaugam la parola. Daca pentru o anumita pozitie din parola nu gasim un caracter cu frecventa cnt_ap, atunci lungimea fixata a parolei nu e cea buna si continuam sa cautam parola cu urmatoarea lungime.
+After that, for a fixed length of the unknown password (10-15), we implemented the following algorithm:
+    We search for the character at a certain position x in the password. We find the frequency of each character in the lists at position x + k * lg, where 0 <= k <= cnt_ap, lg = fixed length. 
+    If there is a character whose number of occurrences is equal to cnt_ap, then we add it to the password. If for a certain position in password we do not find any valid character, then the fixed length is not the right one, therefore we continue the search with the next possible length.
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_//For more explanation, you can see the code comments_
 
-Nota: In cazul in care lungimea parolei nu este 10-15 caractere si este comparabila cu lungimea textului, atunci exista posibilitatea ca algoritmul precedent sa dea mai multe parole. De aceea, facem un dictionar cu cele mai frecvente cuvinte ale limbii romane, pentru a gasi parola corecta (care prin xorare cu output-ul da un text in limba romana fara diacritice).
+### [Improved Algorithm]:  
 
-(Uitati va la comentarii in cod)
-
+If the length of the password is not between 10-15 characters and is comparable with the length of the output text, then there is the possibility that our previous algorithm might return more passwords. Thus, we create a dictionary that will contain the most frequent words of the romanian language in order to get the corrrect password (which by xor-ing with the output text returns a text written in romanian language without diacritics.
 
 ## Copyright © 2021
 
