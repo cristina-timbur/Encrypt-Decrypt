@@ -1,7 +1,7 @@
-# XOR Encryption / Decryption    
+# XOR Encryption / Decryption 
 <p align="right">(<a href="#part-2">Jump to Part 2</a>)</p>  
 
-# Part 1
+# 🚀 Part 1
 ## About the Project
 Implemented two python scripts: 
 - <a href="cracker1.py">**encrypt.py**</a>   
@@ -31,7 +31,7 @@ python encrypt.py password input.txt output
 python decrypt.py password output input_recuperat.txt
 ```
 ***
-# Part 2
+# 🚀 Part 2
 ## Match
 * Our Team: ```Asyncoders```
 * Enemy Team: ```Riga Crypto```
@@ -70,6 +70,6 @@ If the length of the password is not between 10-15 characters and is comparable 
 @vl4dio4n &nbsp;@cristina-timbur 
 
 ***
-*<p align="center"><a>✨ FMI UniBuc 2021 ✨</a></p>*
+*<p align="center"><a>FMI UniBuc 2021</a></p>*
 
 <p align="right">(<a href="#top">Back to Top</a>)</p>
