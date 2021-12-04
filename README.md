@@ -1,5 +1,5 @@
 # XOR Encryption / Decryption 
-<p align="right">(<a href="#p2">Jump to Part 2</a>)</p>  
+<p align="right">(<a href="#match">Jump to Part 2</a>)</p>  
 
 # 🚀 Part 1
 ## About the Project
@@ -31,7 +31,7 @@ python encrypt.py password input.txt output
 python decrypt.py password output input_recuperat.txt
 ```
 ***
-<div>p2</div>
+
 # 🚀 Part 2
 ## Match
 * Our Team: ```Asyncoders```
