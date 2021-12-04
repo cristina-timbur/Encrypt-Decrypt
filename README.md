@@ -39,18 +39,15 @@ python decrypt.py password output input_recuperat.txt
 
 ## About the Project
 Implemented two python scripts:
-- <p align="left"><a href="cracker1.py">cracker1.py</a></p> 
-           &nbsp; - gets the password of another team using xor between their _'input.txt'_ and _'output'_ files.
+- <a href="cracker1.py">cracker1.py</a>
+           &nbsp; - gets the password of another team using xor between their 'input.txt' and 'output' files.
            </br>
-           </br>
-- <p align="left"><a href="cracker2.py">cracker2.py</a></p>   
-           &nbsp; - gets the password of another team while using only their _'output'_ file and xor operation.
+- <p align="left"><a href="cracker2.py">cracker2.py</a></p>    
+           &nbsp; - gets the password of another team while using only their 'output' file and xor operation.
 
 ## Password Cracking 1
 
 Deriving from the fact that the password has at least 10 and at most 15 characters, we have 6 possible lengths (e.g. with n-characters).  For each of these 6 cases we are xor-ing character by character the first 2n characters of the text (we're not xor-ing all the characters, inasmuch as we are assured that the first n-characters and the second n-characters of the text are different), so that we can verify if the first half of the xored result string is equal to the second half. If so, we've found our correct password.
-
-We got the password of the Riga Crypto Team: (asteptam raspunsul lor)
 
 ## Password Cracking 2
 
