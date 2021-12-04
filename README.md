@@ -4,13 +4,13 @@
 # Part 1
 ## About the Project
 Implemented two python scripts: 
-- **encrypt.py**  
+- <a href="cracker1.py">**encrypt.py**</a>   
            &nbsp;  - encrypts the 'input.txt' file, using xor and a specific password, and writes the result in the 'output' file.  
            &nbsp;  - time complexity: _O(n)_ </br>
            &nbsp; - memory complexity: _O(n)_, where n is the length of the input text
             </br>
             </br>
-- **decrypt.py**  
+- <a href="cracker1.py">**decrypt.py**</a>  
             &nbsp; - decrypts the aforementioned encrypted 'output' file and writes the result in the 'input_recuperat.txt' file.  
             &nbsp; - time complexity: _O(n)_ </br>
             &nbsp; - memory complexity: _O(n)_, where n is the length of the input text
@@ -39,10 +39,10 @@ python decrypt.py password output input_recuperat.txt
 
 ## About the Project
 Implemented two python scripts:
-- <a href="cracker1.py">cracker1.py</a>
-           &nbsp; - gets the password of another team using xor between their 'input.txt' and 'output' files.
+- <a href="cracker1.py">**cracker1.py**</a>  
+           &nbsp; - gets the password of another team using xor between their 'input.txt' and 'output' files.  
            </br>
-- <p align="left"><a href="cracker2.py">cracker2.py</a></p>    
+- <a href="cracker2.py">**cracker2.py**</a>      
            &nbsp; - gets the password of another team while using only their 'output' file and xor operation.
 
 ## Password Cracking 1
