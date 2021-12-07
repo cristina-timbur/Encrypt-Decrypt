@@ -71,6 +71,6 @@ If the length of the password is not between 10-15 characters and is comparable 
 @vl4dio4n &nbsp;@cristina-timbur 
 
 ***
-*<p align="center"><a>FMI UniBuc 2021</a></p>*
+*<p align="center"><a>FMI UniBuc 2021</a></p>* 
 
 <p align="right">(<a href="#top">Back to Top</a>)</p>
